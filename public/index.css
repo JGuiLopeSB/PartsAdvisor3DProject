@@ -1,0 +1,420 @@
+/*Parts Advisor 3d by João Guilherme Lopes Büttembender
+
+CPF: 039285.320-57
+
+Cell: 55 53 999715415
+
+E-mail: guibiittembender@hotmail.com
+*/
+ 
+* {
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fafafa;
+  border: 0;
+}
+.container2{
+  position: fixed;
+  width: 795px;
+  height: 369px;
+  top: 138px;
+  left: 560px;
+  overflow-y: auto;
+  margin: 0px;
+  padding: 0;
+  border: 1px solid rgb(54, 54, 54);
+}
+
+#main_canvas {
+  position: absolute;
+  border: 1px solid rgb(12, 12, 12); 
+  top: 109px;
+  left: 30px;
+
+}
+
+button{
+  position: fixed;
+  top: 145px;
+  left: 70px;
+  width: 50px;
+  height: 20px;
+  background-color: #c4111100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.showall{
+  position: fixed;
+  top: 490px;
+  left: 5px;
+  width: 43px;
+  height: 20px;
+  color: #ffffff;
+  background-color: #008040c5;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  
+}
+
+.maxmin{
+  position: fixed;
+  top: 490px;
+  left: 5px;
+  width: 83px;
+  height: 20px;
+  color: #ffffff;
+  background-color: #130080c5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+}
+
+.item{
+  position: absolute;
+  top: 510px;
+  left: 0px;
+  width: 1800px;
+  height: 392px;
+  background-color: #242424;
+  border: 1px solid rgb(54, 54, 54);
+}
+
+.item2{
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  width: 1355px;
+  height: 62px;
+  background-color: #e4e4e4;
+  border: 1px solid rgb(54, 54, 54);
+}
+
+.item3{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 180px;
+  height: 32px;
+  background-color: #e4e4e4;
+  border: 1px solid rgb(54, 54, 54);
+  border-bottom: 0;
+}
+.item4{
+  position: absolute;
+  top: 12px;
+  left: 196px;
+  width: 32px;
+  height: 32px;
+  background-color: #e4e4e4;
+  border: 1px solid rgb(54, 54, 54);
+  border-bottom: 0;
+}
+.item4{
+  position: absolute;
+  top: 48px;
+  left: 6px;
+  width: 132px;
+  height: 28px;
+  background-color: #035217;
+  border: 1px solid rgb(54, 54, 54);
+  border-bottom: 0;
+}
+.item5{
+  position: absolute;
+  top: 48px;
+  left: 144px;
+  width: 332px;
+  height: 28px;
+  background-color: #e4e4e4;
+  border: 1px solid rgb(54, 54, 54);
+}
+.item6{
+  position: absolute;
+  top: 109px;
+ left: 560px;
+  width: 795px;
+  height: 28px;
+  background-color: #ecebeb;
+  border: 1px solid rgb(54, 54, 54);
+}
+.item7{
+  position: absolute;
+  top: 0px;
+
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item8{
+  position: absolute;
+  top: 28px;
+
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item9{
+  position: absolute;
+  top: 56px;
+
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item10{
+  position: absolute;
+  top: 84px;
+ 
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item11{
+  position: absolute;
+  top: 112px;
+ 
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item12{
+  position: absolute;
+  top: 140px;
+ 
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item13{
+  position: absolute;
+  top: 168px;
+
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item14{
+  position: absolute;
+  top: 196px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item15{
+  position: absolute;
+  top: 224px;
+
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item16{
+  position: absolute;
+  top: 252px;
+ 
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item17{
+  position: absolute;
+  top: 280px;
+ 
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item18{
+  position: absolute;
+  top: 308px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item19{
+  position: absolute;
+  top: 336px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item20{
+  position: absolute;
+  top: 364px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item21{
+  position: absolute;
+  top: 392px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item22{
+  position: absolute;
+  top: 420px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item23{
+  position: absolute;
+  top: 448px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item24{
+  position: absolute;
+  top: 476px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+.item25{
+  position: absolute;
+  top: 504px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #d1d0d0;
+}
+.item26{
+  position: absolute;
+  top: 532px;
+  
+  width: 832px;
+  height: 28px;
+  background-color: #ecebeb;
+}
+
+.text1{
+  position: absolute;
+  color:black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9b8a8a00;
+  top: 19px;
+  left: 26px;
+  width: 142px;
+  height: 32px;
+  border: none;
+}
+.text2{
+  position: absolute;
+  color:black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4e4e400;
+  top: 19px;
+  left: 170px;
+  width: 22px;
+  height: 22px;
+  border: none;
+}
+.text3{
+  position: absolute;
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e4e4e400;
+  top: 54px;
+  left: 12px;
+  width: 122px;
+  height: 22px;
+  border: none;
+
+}
+
+.text4{
+  position: absolute;
+  top: 79px;
+  left: 16px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text5{
+  position: absolute;
+  top: 115px;
+  left: 575px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text6{
+  position: absolute;
+  top: 115px;
+  left: 600px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text7{
+  position: absolute;
+  top: 115px;
+  left: 660px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text8{
+  position: absolute;
+  top: 115px;
+  left: 810px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text9{
+  position: absolute;
+  top: 115px;
+  left: 980px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text10{
+  position: absolute;
+  top: 115px;
+  left: 1180px;
+  width: 520px;
+  height: 25px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/*Parts Advisor 3d by João Guilherme Lopes Büttembender
+
+CPF: 039285.320-57
+
+Cell: 55 53 999715415
+
+E-mail: guibiittembender@hotmail.com
+*/
+ 
