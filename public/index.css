@@ -6,7 +6,8 @@ Cell: 55 53 999715415
 
 E-mail: guibiittembender@hotmail.com
 */
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0px;
   padding: 0;
@@ -53,7 +54,7 @@ button{
   height: 20px;
   color: #ffffff;
   background-color: #008040c5;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   
 }
@@ -87,18 +88,20 @@ button{
   left: 0px;
   width: 1355px;
   height: 62px;
-  background-color: #e4e4e4;
-  border: 1px solid rgb(54, 54, 54);
+  background-color: #ffffff;
+  border: 1px solid rgba(90, 89, 89, 0.575);
+  border-top: 2px solid rgba(90, 89, 89, 0.575);
 }
 
 .item3{
   position: absolute;
-  top: 12px;
+  top: 10px;
   left: 12px;
   width: 180px;
-  height: 32px;
-  background-color: #e4e4e4;
-  border: 1px solid rgb(54, 54, 54);
+  height: 34px;
+  background-color: #ffffff;
+  border: 1px solid  rgb(1, 99, 14);
+  border-top: 2px solid  rgb(1, 99, 14);
   border-bottom: 0;
 }
 .item4{
@@ -113,23 +116,33 @@ button{
 }
 .item4{
   position: absolute;
-  top: 48px;
-  left: 6px;
-  width: 132px;
-  height: 28px;
-  background-color: #035217;
-  border: 1px solid rgb(54, 54, 54);
-  border-bottom: 0;
+  top: 50px;
+  left: 10px;
+  width: 108px;
+  height: 25px;
+  background-color: rgb(1, 99, 14);
+  border: 1px solid rgba(90, 89, 89, 0.575);
+  
 }
 .item5{
   position: absolute;
-  top: 48px;
-  left: 144px;
-  width: 332px;
-  height: 28px;
-  background-color: #e4e4e4;
-  border: 1px solid rgb(54, 54, 54);
+  top: 50px;
+  left: 119px;
+  width: 305px;
+  height: 25px;
+  background-color: #ffffff;
+  border: 1px solid rgba(90, 89, 89, 0.575);
 }
+.item29{
+  position: absolute;
+  top: 10px;
+  left: 196px;
+  width: 44px;
+  height: 34px;
+  background-color: #e7e7e7;
+  
+}
+
 .item6{
   position: absolute;
   top: 109px;
@@ -297,13 +310,13 @@ button{
   
   width: 832px;
   height: 28px;
-  background-color: #ecebeb;
+  background-color: #ffffff;
 }
 
 .text1{
   position: absolute;
-  color:black;
-  font-size: 16px;
+  color: rgb(1, 99, 14);
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #9b8a8a00;
   top: 19px;
@@ -327,11 +340,11 @@ button{
 .text3{
   position: absolute;
   color:rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e4e4e400;
   top: 54px;
-  left: 12px;
+  left: 15px;
   width: 122px;
   height: 22px;
   border: none;
@@ -342,11 +355,14 @@ button{
   position: absolute;
   top: 79px;
   left: 16px;
-  width: 520px;
+  width: 545px;
   height: 25px;
   background-color: #e4e4e400;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  
+  
+ 
+  font-size: 16px;
 }
 .text5{
   position: absolute;
@@ -407,6 +423,18 @@ button{
   background-color: #e4e4e400;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+}
+
+.text12{
+  position: absolute;
+  top: 56px;
+  left: 127px;
+  width: 500px;
+  height: 50px;
+  background-color: #e4e4e400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: rgb(90, 89, 89);;
 }
 
 /*Parts Advisor 3d by João Guilherme Lopes Büttembender
