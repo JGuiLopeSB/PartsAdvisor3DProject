@@ -68,6 +68,7 @@ var hemiLight = new THREE.PointLight( 0xFFFFFF, 50);
   document.getElementById("main_canvas").style.width = 525 + 'px';
   document.getElementById("main_canvas").style.height = 398 + 'px';
 
+  
   const main_canvas2 = document.getElementById("main_canvas");
 
   camera.aspect = main_canvas2.clientWidth / main_canvas2.clientHeight;

@@ -391,6 +391,12 @@ button{
   font-size: 14px;
 }
 
+
+svg { cursor: pointer; }
+.checked { display: none; } /* Hide checked path initially */
+
+input[type="checkbox"]:checked + label svg .unchecked { display: none; }
+input[type="checkbox"]:checked + label svg .checked { display: block; }
 svg #original {
   transition: all 0.5s;
 }
@@ -399,11 +405,12 @@ svg:hover #original {
   d: path("M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z");
 }
 svg {
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
-svg:hover{
-  stroke:black;
+svg:active{
+  stroke:rgb(0, 255, 13);
+  transform: scale(1.1);
 }
 .text5{
   position: absolute;
