@@ -8,7 +8,7 @@ E-mail: guibiittembender@hotmail.com
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-* {
+body{
   margin: 0px;
   padding: 0;
   overflow: hidden;
@@ -22,9 +22,41 @@ E-mail: guibiittembender@hotmail.com
   top: 138px;
   left: 560px;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0px;
   padding: 0;
   border: 1px solid rgb(54, 54, 54);
+}
+.container{
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fafafa;
+  border: 0;
+}
+
+
+.checks {
+    position:absolute;
+  
+
+  
+
+}
+
+.check66 {
+
+    opacity:0;
+}
+
+
+svg { cursor: pointer; }
+.checked { display: none; }
+
+input[type="checkbox"]:checked + label svg .unchecked { display: none; }
+input[type="checkbox"]:checked + label svg .checked { display: block; }
+svg #original {
+  transition: all 0.5s;
 }
 
 #main_canvas {
@@ -48,14 +80,16 @@ button{
 
 .showall{
   position: fixed;
+  text-align: left;
   top: 490px;
   left: 5px;
-  width: 43px;
+  width: 48px;
   height: 20px;
+  margin: 0;
   color: #ffffff;
   background-color: #008040c5;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   
 }
 
@@ -68,7 +102,7 @@ button{
   color: #ffffff;
   background-color: #130080c5;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   
 }
 
@@ -392,14 +426,10 @@ button{
 }
 
 
-svg { cursor: pointer; }
-.checked { display: none; } /* Hide checked path initially */
 
-input[type="checkbox"]:checked + label svg .unchecked { display: none; }
-input[type="checkbox"]:checked + label svg .checked { display: block; }
-svg #original {
-  transition: all 0.5s;
-}
+
+
+
 
 svg:hover #original {
   d: path("M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z");
@@ -409,8 +439,8 @@ svg {
 }
 
 svg:active{
-  stroke:rgb(0, 255, 13);
-  transform: scale(1.1);
+  
+  transform: scale(1.2);
 }
 .text5{
   position: absolute;
@@ -455,7 +485,7 @@ svg:active{
 .text9{
   position: absolute;
   top: 115px;
-  left: 980px;
+  left: 1020px;
   width: 520px;
   height: 25px;
   background-color: #e4e4e400;
