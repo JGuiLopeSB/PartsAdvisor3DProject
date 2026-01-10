@@ -116,7 +116,7 @@ button{
   border: 1px solid rgb(54, 54, 54);
 }
 
-.item2{
+.box_top{
   position: absolute;
   top: 44px;
   left: 0px;
@@ -127,7 +127,7 @@ button{
   border-top: 2px solid rgba(90, 89, 89, 0.575);
 }
 
-.item3{
+.box_guide{
   position: absolute;
   top: 10px;
   left: 12px;
@@ -138,17 +138,8 @@ button{
   border-top: 2px solid  rgb(1, 99, 14);
   border-bottom: 0;
 }
-.item4{
-  position: absolute;
-  top: 12px;
-  left: 196px;
-  width: 32px;
-  height: 32px;
-  background-color: #e4e4e4;
-  border: 1px solid rgb(54, 54, 54);
-  border-bottom: 0;
-}
-.item4{
+
+.buttom_john{
   position: absolute;
   top: 50px;
   left: 10px;
@@ -156,9 +147,13 @@ button{
   height: 25px;
   background-color: rgb(1, 99, 14);
   border: 1px solid rgba(90, 89, 89, 0.575);
-  
+  color:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-indent: 4px;
+  line-height: 25px;
 }
-.item5{
+.box_search{
   position: absolute;
   top: 50px;
   left: 119px;
@@ -167,7 +162,7 @@ button{
   background-color: #ffffff;
   border: 1px solid rgba(90, 89, 89, 0.575);
 }
-.item29{
+.more_pages{
   position: absolute;
   top: 10px;
   left: 196px;
@@ -177,7 +172,7 @@ button{
   
 }
 
-.item6{
+.header_items{
   position: absolute;
   top: 109px;
  left: 560px;
@@ -186,7 +181,7 @@ button{
   background-color: #ecebeb;
   border: 1px solid rgb(54, 54, 54);
 }
-.item7{
+.line1{
   position: absolute;
   top: 0px;
 
@@ -194,7 +189,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item8{
+.line2{
   position: absolute;
   top: 28px;
 
@@ -202,7 +197,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item9{
+.line3{
   position: absolute;
   top: 56px;
 
@@ -210,7 +205,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item10{
+.line4{
   position: absolute;
   top: 84px;
  
@@ -218,7 +213,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item11{
+.line5{
   position: absolute;
   top: 112px;
  
@@ -226,7 +221,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item12{
+.line6{
   position: absolute;
   top: 140px;
  
@@ -234,7 +229,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item13{
+.line7{
   position: absolute;
   top: 168px;
 
@@ -242,7 +237,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item14{
+.line8{
   position: absolute;
   top: 196px;
   
@@ -250,7 +245,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item15{
+.line9{
   position: absolute;
   top: 224px;
 
@@ -258,7 +253,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item16{
+.line10{
   position: absolute;
   top: 252px;
  
@@ -266,7 +261,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item17{
+.line11{
   position: absolute;
   top: 280px;
  
@@ -274,7 +269,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item18{
+.line12{
   position: absolute;
   top: 308px;
   
@@ -282,7 +277,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item19{
+.line13{
   position: absolute;
   top: 336px;
   
@@ -290,7 +285,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item20{
+.line14{
   position: absolute;
   top: 364px;
   
@@ -298,7 +293,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item21{
+.line15{
   position: absolute;
   top: 392px;
   
@@ -306,7 +301,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item22{
+.line16{
   position: absolute;
   top: 420px;
   
@@ -314,7 +309,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item23{
+.line18{
   position: absolute;
   top: 448px;
   
@@ -322,7 +317,7 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item24{
+.line18{
   position: absolute;
   top: 476px;
   
@@ -330,7 +325,7 @@ button{
   height: 28px;
   background-color: #ecebeb;
 }
-.item25{
+.line19{
   position: absolute;
   top: 504px;
   
@@ -338,13 +333,13 @@ button{
   height: 28px;
   background-color: #d1d0d0;
 }
-.item26{
+.line20{
   position: absolute;
   top: 532px;
   
   width: 832px;
   height: 28px;
-  background-color: #ffffff;
+  background-color: #ecebeb;
 }
 
 .text1{
@@ -370,19 +365,6 @@ button{
   width: 22px;
   height: 22px;
   border: none;
-}
-.text3{
-  position: absolute;
-  color:rgb(255, 255, 255);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #e4e4e400;
-  top: 54px;
-  left: 15px;
-  width: 122px;
-  height: 22px;
-  border: none;
-
 }
 
 .text4{
